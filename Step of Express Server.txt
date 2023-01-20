@@ -41,3 +41,14 @@ mongoose.connect("HERE ENTER THE MONGOO COMPASS URL", {
 });
 ```
 #### 2.Data.js
+```
+const mongoose = require("mongoose")
+
+const userSchema = new mongoose.Schema({
+    name: String,
+    email: String,
+    password :String
+})
+
+module.exports = mongoose.model("HERE COLLECTION NAME",userSchema)
+```
