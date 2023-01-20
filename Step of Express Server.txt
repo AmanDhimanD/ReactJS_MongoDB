@@ -1,6 +1,12 @@
 # Steps to step the Server 
 
+- Two Folder 
+  - backend
+  - frontend
+
 - Install the these package 
 ```
 npm i nodemon express mongoose
 ```
+
+- Create a index.js file in the backend folder 
