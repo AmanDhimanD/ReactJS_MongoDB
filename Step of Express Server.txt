@@ -40,3 +40,4 @@ mongoose.connect("HERE ENTER THE MONGOO COMPASS URL", {
   useNewUrlParser: true,
 });
 ```
+#### 2.Data.js
