@@ -1,3 +1,6 @@
 # Steps to step the Server 
 
-- 
+- Install the these package 
+```
+npm i nodemon express mongoose
+```
