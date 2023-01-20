@@ -9,4 +9,24 @@
 npm i nodemon express mongoose
 ```
 
-- Create a index.js file in the backend folder 
+## Create a index.js file in the backend folder 
+#### index.js 
+- Step 1: start a server 
+```
+const express  =  require("express")
+
+const app = express()
+
+
+app.get("/",(req,res)=>{
+    res.send("App is working.....")
+})
+
+app.listen(5000)
+
+```
+- Run the server use this command
+```
+nodemon
+```
+
