@@ -29,4 +29,14 @@ app.listen(5000)
 ```
 nodemon
 ```
+## Create a new folder db 
+#### 1. config.js
+- Step 2: Write the mongoose connection in this file
+```
+const mongoose = require("mongoose")
+mongoose.set("strictQuery", false)
 
+mongoose.connect("HERE ENTER THE MONGOO COMPASS URL", {
+  useNewUrlParser: true,
+});
+```
