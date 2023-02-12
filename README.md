@@ -51,7 +51,7 @@ npm init
 ```
 and then
 
-```bash
+```
   npm i mongooses nodemon express
 ```
 
@@ -121,6 +121,14 @@ app.listen(5000);
 //connectDB()
 //app.listen(5001);
 
+```
+# If nodemon (error) 
+- Run this command in a POWER shell (run as administrator)
+```
+Get-ExecutionPolicy
+```
+```
+Set-ExecutionPolicy Unrestricted
 ```
 - Create a folder in backend
     - db 
