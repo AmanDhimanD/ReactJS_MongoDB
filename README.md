@@ -436,3 +436,5 @@ npm start
 
 # Finally
 
+# Note : 
+- need to add the more details 
