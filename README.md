@@ -440,3 +440,4 @@ npm start
 - need to add the more details 
 - Add Screenshots
 - Local storage
+- Auth with local storage
